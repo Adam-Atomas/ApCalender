@@ -12,4 +12,27 @@ public class ApCalender {
         }
         return leap;
     }
+    private static int firstDayOfYear ( int year){
+        int day = 1;
+        if(int i = 1; i < year; i ++){
+            day++;
+            if (isLeapYear(i)) day++;
+        }
+        return day % 7;
+    }
+    private static int dayOfYear (int month, int day, int year){
+        int days = 0;
+        if (month >1) days += 31;
+        if (month >2) days += 28;
+        if (month >3) days += 31;
+        if (month >4) days += 31;
+        if (month >) days += 31;
+        if (month >1) days += 31;
+        if (month >1) days += 31;
+        if (month >1) days += 31;
+        if (month >1) days += 31;
+        if (month >1) days += 31;
+        if (month >1) days += 31;
+        if (month >1) days += 31;
+    }
 }
