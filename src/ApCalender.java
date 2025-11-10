@@ -14,7 +14,7 @@ public class ApCalender {
     }
     private static int firstDayOfYear ( int year){
         int day = 1;
-        if(int i = 1; i < year; i++){
+        for(int i = 1; i < year; i++){
             day++;
             if (isLeapYear(i)) day++;
         }
@@ -37,7 +37,7 @@ public class ApCalender {
         days += day;
         return days;
     }
-    private static int dayOfWeek (int month, int day, int year){
+    public static int dayOfWeek (int month, int day, int year){
     int days = dayOfYear(month, day, year)%7;
     return firstDayOfYear(year)+days-1;
     }

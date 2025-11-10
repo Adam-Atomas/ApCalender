@@ -5,7 +5,7 @@ public class Main {
 
         System.out.println(ApCalender.numberOfLeapYears(2000, 2020));
         System.out.println(ApCalender.dayOfWeek(1, 5, 2019));
-        System.out.println(ApCalender.dayOfWeek(1, 10, 2019);
+        System.out.println(ApCalender.dayOfWeek(1, 10, 2019));
     }
 
 }
